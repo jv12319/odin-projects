@@ -1,7 +1,72 @@
 .hero{
     width: 100%;
-    height: 200px;
+    height: 400px;
     background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+
+.main-text{
+    margin-left: 200px;
+    font-size: 48px;
+    font-weight: 800px;
+    color: #F9FAF8;
+    
+}
+
+.sec-text{
+    margin-left: 380px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#button1{
+    margin-left: 400px;
+    margin-top: 10px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: white;
+    border: 20px;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#pic1{
+    width: 400px;
+    height: 200px;
+    margin-right: 300px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 400px
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 0.2;
+    margin-right: 400px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .info{
@@ -11,7 +76,13 @@
     justify-content: center;
 }
 
+#random{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
 html, body{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
